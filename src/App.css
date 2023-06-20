@@ -36,6 +36,12 @@
   border: 2px solid rgb(48, 48, 48);
 }
 
+.card-button-wrapper {
+  width:20%;
+  display:flex;
+  justify-content: center;
+}
+
 .cart--button:hover, .nav--about:hover {
   border: 2px solid rgb(48, 48, 48);
   color: rgb(48, 48, 48);
@@ -43,7 +49,7 @@
 }
 
 .nav--wrapper {
-  width:10%;
+  width:20%;
   height: 50%;
   display:flex;
   flex-wrap:wrap;
@@ -289,7 +295,7 @@ a {
 }
 
 .cart-end-button {
-  width:30%;
+  width:100%;
   padding:1vh;
   border:none;
   border-radius:10px;
@@ -300,7 +306,7 @@ a {
 }
 
 .end-1 {
-  background-color:rgb(237, 172, 103);
+  background-color:rgb(237, 171, 103);
 }
 
 .end-2 {
