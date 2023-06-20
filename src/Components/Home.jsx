@@ -9,7 +9,7 @@ function Home() {
                 <div className="home-details-wrapper">
                     <div className="home--title">Unwind. Explore. Escape.</div>
                     <div className="home--description">Urban Escape is your gateway to a tranquil retreat in the heart of the city. Discover a curated collection of stylish furniture and decor, meticulously designed to transform your urban space into a sanctuary of relaxation and rejuvenation.</div>
-                    <button className="home-store-button"><NavLink to="/store">Visit the Store</NavLink></button>
+                    <NavLink to="/store"><button className="home-store-button">Visit the Store</button></NavLink>
                 </div>
             </div>
             
