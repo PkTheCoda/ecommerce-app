@@ -317,7 +317,6 @@ a {
 }
 
 .cart-end-button {
-  width:30%;
   padding:1vh;
   border:none;
   border-radius:10px;
@@ -328,6 +327,7 @@ a {
 }
 
 .end-1 {
+  width:100%;
   background-color:rgb(237, 172, 103);
 }
 
