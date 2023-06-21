@@ -389,3 +389,19 @@ dialog::backdrop {
   width:80%;
   font-family:var(--secondary-font);
 }
+
+.watermark {
+  position:absolute;
+  bottom:1em;
+  font-family:var(--primary-font);
+  font-size:1.5vh;
+  padding:1em;
+  background-color: white;
+  box-shadow:0px 0px 10px -4px;
+  border-radius:10px;
+}
+
+.watermark-name {
+  font-weight:700;
+  text-decoration: underline;
+}
