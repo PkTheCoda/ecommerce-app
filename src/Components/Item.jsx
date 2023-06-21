@@ -29,8 +29,17 @@ function Item(props) {
                 <img src={props.src} className="dialog--image" />
                 <p className="dialog--desc">{props.description}</p>
                 <button className="item-add-button item-button">
-                  Let me buy!
+                  I'll keep looking
                 </button>
+                <button
+                  className="item-add-button item-button"
+                  onClick={() => {
+                    props.cartClick(props.name, props.price);
+                  }}
+                >
+                  Add to Cart
+                </button>
+                
               </form>
             </div>
           </dialog>
