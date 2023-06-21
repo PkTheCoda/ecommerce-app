@@ -24,7 +24,7 @@ function Cart(props) {
                 </div>
                 {console.log(`Item: ${props.cartTotal}`)}
                 {props.cartTotal === 0 ? <h4 class="cart--total">Looks like you don't have anything in your cart yet!</h4> : <h1 class="cart--total">Total: ${props.cartTotal}</h1>}
-                {props.cartTotal === 0 && <button className="cart-end-button end-1"><NavLink to="/store">Buy More Items</NavLink></button>}
+                {props.cartTotal === 0 && <NavLink to="/store"><button className="cart-end-button end-1">Buy More Items</button></NavLink>}
                 {props.cartTotal !== 0 && <button className="cart-end-button end-2" onClick={() => alert("Thanks for shopping at Urban Escape!")}>Checkout</button>}
             </div>
         </>
