@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './Components/Home';
 import Cart from './Components/Cart';
 import { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
           <Route path="/cart" element={<Cart cartItems={cartItems} cartTotal={total} cancel={handleDelete}/>} />
         </Routes>
       </BrowserRouter>
+      <Analytics />
     </>
   );
 }
