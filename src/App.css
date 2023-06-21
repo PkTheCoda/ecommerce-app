@@ -317,6 +317,7 @@ a {
 }
 
 .cart-end-button {
+  width:30%;
   padding:1vh;
   border:none;
   border-radius:10px;
@@ -327,12 +328,7 @@ a {
 }
 
 .end-1 {
-  background-color:rgb(237, 171, 103);
-  width:100%;
-}
-
-.end-1:hover {
-  animation: pulse 1s infinite;
+  background-color:rgb(237, 172, 103);
 }
 
 .end-2 {
