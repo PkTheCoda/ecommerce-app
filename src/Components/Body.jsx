@@ -22,7 +22,6 @@ function Body(props) {
                     />
                 )
             })}
-            {/* <button onClick={props.testFunction}>Random</button> */}
         </div>
     </>
     )

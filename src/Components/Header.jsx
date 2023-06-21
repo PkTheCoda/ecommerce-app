@@ -5,18 +5,20 @@ import { faCartShopping, faShop, faUser } from "@fortawesome/free-solid-svg-icon
 
 function Header(props) {
     return (
-        <div className="header--wrapper">
-            <div className="nav--wrapper">
-                <div className="nav--child">About </div>
-                <div className="nav--child">Contact</div>
-                <NavLink to="/store"><div className="nav--child">Shop <FontAwesomeIcon icon={faShop} /></div></NavLink>
+        <>
+            <div className="header--wrapper">
+                <div className="nav--wrapper">
+                    <NavLink to="/"><div className="nav--child">Home</div></NavLink>
+                    <div className="nav--child">About </div>
+                    <NavLink to="/store"><div className="nav--child">Shop <FontAwesomeIcon icon={faShop} /></div></NavLink>
+                </div>
+                <div className="header--title">Urban Escape</div>
+                <div className="card-button-wrapper">
+                <button className="cart--button"><NavLink to="/cart"><FontAwesomeIcon icon={faCartShopping} /> {props.cartItems}</NavLink></button>
+                </div>
+            
             </div>
-            <div className="header--title">Urban Escape</div>
-            <div className="card-button-wrapper">
-            <button className="cart--button"><NavLink to="/cart"><FontAwesomeIcon icon={faCartShopping} /> {props.cartItems}</NavLink></button>
-            </div>
-           
-        </div>
+        </>
     )
 }
 
