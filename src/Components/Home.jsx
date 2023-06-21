@@ -12,7 +12,7 @@ function Home() {
                     <div className="home--description">Urban Escape is your gateway to a tranquil retreat in the heart of the city. Discover a curated collection of stylish furniture and decor, meticulously designed to transform your urban space into a sanctuary of relaxation and rejuvenation.</div>
                     <NavLink to="/store"><button className="home-store-button">Visit the Store</button></NavLink>
                 </div>
-                <div className="watermark">Made with ❤️ by <a href="https://github.com/PkTheCoda"><span className="watermark-name">Pranav</span></a></div>
+                <div className="watermark">Made with ❤️ by <a href="https://github.com/PkTheCoda" target="_blank"><span className="watermark-name">Pranav</span></a></div>
             </div>
 
             
