@@ -70,7 +70,32 @@ const furnitureItemsData = [
       description: "Add a touch of industrial charm to your urban living space with our Vintage Industrial Side Table, featuring a unique design and weathered finish.",
       price: 149.99,
       tags: ["Industrial", "Ergonimic", "Antique Finish"]
+    },
+    {
+      id: 10,
+      name: "Urban Lounge Chair",
+      src: "https://images.dwell.com/photos/6063391372700811264/6971539949493202944/large.jpg",
+      description: "Experience ultimate comfort with our Urban Lounge Chair, featuring a sleek design and plush cushions for a luxurious seating experience.",
+      price: 349.99,
+      tags: ["Comfort", "Sleek Design", "Luxury"]
+    },
+    {
+      id: 11,
+      name: "Industrial Bar Stools",
+      src: "https://i.etsystatic.com/8655934/r/il/9a20a7/1822387940/il_fullxfull.1822387940_nr1m.jpg",
+      description: "Add a touch of industrial chic to your urban kitchen or bar area with our stylish Industrial Bar Stool, combining form and functionality.",
+      price: 89.99,
+      tags: ["Industrial Chic", "Kitchen", "Bar"]
+    },
+    {
+      id: 12,
+      name: "Urban Plant Stand",
+      src: "https://images.urbndata.com/is/image/UrbanOutfitters/57809568_111_b?$xlarge$&fit=constrain&qlt=80&wid=640",
+      description: "Display your favorite plants with our Urban Plant Stand, a perfect blend of modern design and functionality for your urban jungle.",
+      price: 49.99,
+      tags: ["Plant Display", "Modern Design", "Functionality"]
     }
+    
 ];
 
 export default furnitureItemsData
