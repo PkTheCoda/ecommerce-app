@@ -30,7 +30,6 @@
   font-family: var(--primary-font);
   font-size:3vw;
   font-weight:600;
-  border: 2px solid red;
 }
 
 .header--title:hover {
